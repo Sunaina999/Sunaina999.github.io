@@ -5,7 +5,7 @@ const guesswork = document.querySelector(".guess");
 //Buttons
 const prev = document.querySelector("#prev");
 const next = document.querySelector("#next");
-
+const indices = document.querySelectorAll(".nav-area ul li");
 //counter
 let counter = 1;
 const size = imgs[0].clientWidth;
@@ -38,5 +38,6 @@ slide.addEventListener("transitionend", () => {
   }
 });
 butt.addEventListener("click", () => {
-  guesswork.innerHTML += "<p>We did it, yoohoo!</p>";
+  guesswork.innerHTML =
+    "<p>Well,I took the IT job.<br>I wasn't ready for an MBA.<br>I am still not sure if it's for me. <br> But, people still push me to go.<br>Let's see.</p>";
 });

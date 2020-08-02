@@ -76,16 +76,10 @@ header p {
   text-align: center;
   height: calc(100vh - 540px);
 }
-.nav-area ul {
-  list-style: none;
-}
-.nav-area ul li {
-  display: inline-block;
-}
-.nav-area ul li a {
+.nav-area button {
+  width: 20vw;
   padding: 25px 80px;
   margin: 20px;
-  text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   border-style: solid;
@@ -95,16 +89,17 @@ header p {
   color: aliceblue;
   transition: 0.6s ease;
 }
-.nav-area ul li a:hover {
+.nav-area button:hover {
   background-color: cornsilk;
   color: blue;
+  cursor: pointer;
 }
 /* 2nd screen */
 .origins {
   margin: 1px 0px 0px 0px;
   height: 100vh;
   width: 100%;
-  background-image: url(/images/darkbc.jpg);
+  background-image: url(/images/greenbc.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,19 +124,17 @@ h2 {
   border-radius: 60%;
   border: 5px solid goldenrod;
 }
-.about p a {
-  padding: 2px 10px;
+.about p {
+  position: absolute;
+  left: 16%;
+  top: 80%;
+  width: 18vw;
+  padding: 2px 5px;
   font-family: cursive;
-  color: olivedrab;
   border: 3px solid goldenrod;
   border-radius: 10%;
-  text-decoration: none;
   font-weight: 600;
   font-size: 18px;
-  background-color: pink;
-  transition: 0.6s ease;
-}
-.about p a:hover {
   color: pink;
   background-color: olivedrab;
 }
@@ -181,10 +174,7 @@ h2 {
   margin: 1px 0px 0px 0px;
   height: 100vh;
   width: 100%;
-  background-image: url(/images/skybc.jpg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: orangered;
   text-align: center;
   position: relative;
 }
@@ -204,7 +194,7 @@ h2 {
   width: 100%;
 }
 #prev {
-  color: white;
+  color: black;
   z-index: 10;
   position: absolute;
   left: 1%;
@@ -212,7 +202,7 @@ h2 {
   cursor: pointer;
 }
 #next {
-  color: white;
+  color: black;
   z-index: 10;
   position: absolute;
   right: 1%;
@@ -342,7 +332,7 @@ h3 {
   height: 35px;
   padding-top: 15px;
   padding-bottom: 10px;
-  color: black;
+  color: orangered;
   line-height: 12px;
   font-family: "Red Rose", cursive;
   font-size: 30px;
@@ -367,6 +357,7 @@ h3 {
   text-align: center;
   font-size: large;
   color: black;
+  width: 40vw;
 }
 .guess:hover {
   border: 2px solid red;
@@ -387,7 +378,7 @@ h3 {
   padding: 15px 25px;
   border-radius: 10%;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 .guess button:hover {
   background-color: thistle;
@@ -399,9 +390,7 @@ h3 {
 }
 .bored {
   margin: 0px;
-  background-image: url(/images/leafbc.jpg);
-  background-position: top center;
-  background-size: cover;
+  background-color: darkslategray;
   height: 250vh;
   width: 100vw;
   color: white;

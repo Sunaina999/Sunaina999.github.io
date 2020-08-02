@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf0739d042.js" crossorigin="anonymous"></script>
@@ -30,22 +31,21 @@
         </nav>
         <header>
           <h1>My Portfolio</h1>
-          <p>This website hand written by me about myself.</p>
+          <p>This website hand written by me about myself <sup>**</sup></p>
         </header>
         <div class="nav-area">
-          <ul>
-            <li><a href="#origins2">The Origins</a></li>
-            <li><a href="#school2">The School</a></li>
-            <li><a href="#career2">The Career</a></li>
-            <li><a href="#future2">The Future</a></li>
-          </ul>
+          <button onclick="document.getElementById('origins2').scrollIntoView({block: 'start', behaviour: 'smooth', inline: 'center'});">The Origins</button>
+          <button onclick="document.getElementById('school2').scrollIntoView({block: 'start', behaviour: 'smooth', inline: 'center'})">The School</button>
+          <button onclick="document.getElementById('career2').scrollIntoView({block: 'start', behaviour: 'smooth', inline: 'center'})">The Career</button>
+          <button onclick="document.getElementById('future2').scrollIntoView({block: 'start', behaviour: 'smooth', inline: 'center'})">The Future</button>
         </div>
+        <span style="color: white; position: absolute; bottom: 0;right: 3px;"><sup>**</sup>Narcissism alert</span>
       </div>
       <div class="origins" id="origins2">
         <h2>My Origins</h2>
         <div class="about">
           <img src="/images/DadMom.jpg" alt="Parents" />
-          <p><a href="https://www.facebook.com/sudheerbabus" target="_blank">Mr.Sudheer babu</a> & <a href="https://www.facebook.com/saroja.sudula" target="_blank">Mrs. Saroja</a></p>
+          <p>Mr.Sudheer babu & Mrs. Saroja</p>
         </div>
         <div class="biodata">
           <table>
@@ -112,13 +112,14 @@
       </div>
       <div class="school" id="school2">
         <h2>The Seed</h2>
+        <div class="white" style="background-color: yellow; opacity: 0.4; width: 100%;height: 80%;position: absolute;top: 20%;">
+        
         <div class="ssc-carousel">
           <i class="fa fa-arrow-left fa-2x" id="prev"></i>
           <i class="fa fa-arrow-right fa-2x" id="next"></i>
           <div class="slide">
             <img id="lastclone" src="/images/dance10.jpg" alt="dance10-pic" />
             <img src="/images/medal.jpg" alt="medal-pic" />
-            <img src="/images/yenda.jpg" alt="yendamuri-pic" />
             <img src="/images/langa.jpg" alt="blue-pic" />
             <img src="/images/dance10.jpg" alt="dance10-pic" />
             <img id="firstclone" src="/images/medal.jpg" alt="medal-pic" />
@@ -129,25 +130,24 @@
             <ul>
               <li>Fun fact : I didn't study LKG</li>
               <li>Schooling till 10th done in <a href="https://www.facebook.com/FloraEinglishMediumSchool" target="_blank" style="text-decoration: none;">
-                <span style="color: goldenrod;">Flora E.M. school</span>
+                <span style="color: goldenrod;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Flora E.M. school</span>
               </a></li>
               <li>Excelled in studies, dance and waking up at 6 a.m </li>
             </ul>
           </p>
         </div>
+       </div>
       </div>
       <div class="inter">
         <div class="shine" style="position: absolute; top: 40%;left: 40%;">
         <h2>The Shining</h2>
-        <p style="color: white;">You can hear me, bro! <i class="fa fa-handshake-o fa-2x"></i></p>
+        <p style="color: white;">You can hear me.<i class="fa fa-handshake-o fa-2x"></i></p>
         </div>
         <div class="left">
-        <img src="/images/interbook.jpg" alt="interbook">
         <img src="/images/optandon.jpg" alt="op1">
         </div>
         <div class="right">
         <img src="/images/cop2.jpg" alt="cop2">
-        <img src="/images/class.jpg" alt="interclass">
         </div>
         <img src="/images/mth.jpg" alt="math-series" id="math">
         </div>
@@ -177,7 +177,7 @@
             
           <div class="secondrow" style="top:74%;">
             <img src="/images/withsak.jpg" alt="num4">
-            <img src="/images/farewell.JPG" alt="num5">
+            <img src="/images/farewell.jpeg" alt="num5">
             <img src="/images/sidesaree.jpg" alt="num6">
           </div>
         </div>
@@ -212,21 +212,30 @@
       </div>
       <div class="bored">
         <h1>
-        And it got boring....<br><br>
-        S..u..p..e..r<br>B..o..r..i..n..g
+        I worked at Hyderabad on data processing.
+        <br><br><br>
+        And it got boring....<br><br><br><br>
+        <span style="line-height: 12px; font-family: 'BioRhyme Expanded', serif;">S...u...p...e...r<br>B...o...r...i...n...g...</span>
         <br>
         <br><br><br><br>
-        After 2 months of grinding physics.
+        Then I came to know about Air traffic control.
+        <br>
+        <br><br><br><br>
+        After 2 months of grinding physics....
         <br>
         <br>
         <br>
         <br>
-        And 4 months of chilling at Pune...
+        And shifting cities....
+        <br>
+        <br><br><br><br>
+        And 4 months of chilling at Pune....
         <br><br><br><br><br><br>
-        .......... 
-        <br><br><br><br><br><br>
-        .......... 
-
+        <i class="fas fa-hourglass-start fa-3x"></i>
+        ...
+        <i class="fas fa-hourglass-half fa-3x"></i>
+        ...
+        <i class="fas fa-hourglass-end fa-3x"></i>
         </h1>
       </div>
       <div class="aero">
@@ -234,11 +243,11 @@
         <span class="sidetext"><sub> Well, the controlling.</sub></span>
         <img id="meatc" src="/images/meatc.jpg" alt="me-ATC">
         <ul>
-          <li>ATC is an Air traffic controller. <br> To know more about <a href="https://en.wikipedia.org/wiki/Air_traffic_controller" target="_blank">ATC</a> and watch <a href="https://www.youtube.com/watch?v=w3Ju1hBNI2Q" target="_blank">this</a></li>
+          <li>ATC is an Air traffic controller. <br> To know more about <a href="https://en.wikipedia.org/wiki/Air_traffic_controller" target="_blank">ATC</a>,watch <a href="https://www.youtube.com/watch?v=w3Ju1hBNI2Q" target="_blank">this</a></li>
           <li>The training was rigorous and lasted 9 months at <a href="https://catc.aai.aero/" target="_blank">CATC, Prayagraj.</a> </li>
           <li>I really enjoyed the training and the work itself is super interesting.Worked at <a href="https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri_Airport" target="_blank">VEBN</a> for 2 weeks on OJT.</li>
         </ul>
-        <img id="controller" src="/images/IMG_20200320_114448.jpg" alt="controller">
+        <img id="controller" src="/images/atc2.jpg" alt="controller">
       </div>
       <div class="future" id="future2">
         <h2>THE FUTURE</h2>
@@ -248,7 +257,7 @@
          <br>
          <p>So, I asked <span style="color: royalblue;"><b>Dr.Strange</b></span> about my future and he said, <br>"Girl, we are looking at 147856 possibilities but not one of them has a dog in it."</p>
          <br>
-         <p>I said,"Pray tell me what they all have?" <br> <br>And he continued.........<i class="fas fa-smile-wink" style="color: green;"></i></p>
+         <p>I said,"Pray tell me then, what do they all have?" <br> <br>And he continued.........<i class="fas fa-smile-wink" style="color: green;"></i></p>
          <div class="lists">
          <ul style="color: green;">
           <li><h1><u><b>PRESENT</b></u></h1></li>
@@ -279,6 +288,7 @@
         </div>
       </div>
       <div class="content-wrapper">
+        <h2 style="position: absolute;top: 20%;left: 13%;">THANK YOU!</h2>
         <p>And btw, <a href="https://www.instagram.com/harika.sudula/" target="_blank" style="text-decoration: none; color: yellow;">This</a> is my sister Meh! She's not important<br> <br> <br><br> She's actually pretty awesome<br><br><br> Well, not more than me <i class="fas fa-grin-tongue" style="color: yellow;"></i></p>
           <footer> 
             <ul>
