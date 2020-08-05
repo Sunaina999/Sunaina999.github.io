@@ -13,6 +13,10 @@ html {
 }
 body {
   width: 100%;
+  height: fit-content;
+}
+.pagecover {
+  height: fit-content;
 }
 img {
   max-width: 100%;
@@ -647,10 +651,10 @@ footer ul li a {
   .ssc-carousel {
     margin: 0;
     float: none;
+    width: 60%;
     position: absolute;
-    top: 2px;
-    left: 40%;
-    width: 27%;
+    top: 2rem;
+    left: 4rem;
   }
   .diary {
     top: 80%;
@@ -735,11 +739,11 @@ footer ul li a {
     left: 4%;
   }
   .future h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 0;
   }
   .point {
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-radius: 10%;
   }
   .lists {
@@ -748,16 +752,19 @@ footer ul li a {
     margin: 0.2rem;
   }
   .lists ul {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     width: 100%;
     display: inline-block;
+    margin-bottom: 2rem;
   }
 
   .interests ul {
     left: 8%;
   }
+  footer {
+    height: 15vh;
+  }
   footer ul {
-    height: 25vh;
     margin: 3rem auto;
   }
   footer ul li {
