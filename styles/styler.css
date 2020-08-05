@@ -9,12 +9,17 @@
 }
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100%;
 }
 body {
   width: 100%;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .wrapper {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(/images/greenbc.jpg);
   background-position: top center;
@@ -22,8 +27,8 @@ body {
   background-repeat: no-repeat;
 }
 nav {
-  height: 100px;
-  line-height: 80px;
+  height: 4rem;
+  line-height: 5rem;
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -35,17 +40,17 @@ nav a {
 nav a img {
   float: left;
   border-radius: 60%;
-  width: 150px;
+  width: 10vw;
 }
 #pic {
   float: right;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
 }
 #pic img {
   border: 3px solid black;
   border-radius: 45%;
-  height: 150px;
+  height: 10vw;
 }
 #contact {
   font-family: fantasy;
@@ -64,17 +69,17 @@ header {
 }
 header h1 {
   color: white;
-  font-size: 40px;
+  font-size: 1.2rem;
 }
 header p {
   color: aliceblue;
-  font-size: 18px;
-  margin: 10px auto;
+  font-size: 0.8rem;
+  margin: 0.5rem auto;
 }
 .nav-area {
-  margin: 40px;
+  margin: 1rem;
   text-align: center;
-  height: calc(100vh - 540px);
+  height: 60vh;
 }
 .nav-area button {
   width: 20vw;
@@ -113,7 +118,7 @@ h2 {
   font-family: cursive;
   font-style: italic;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.1rem;
 }
 .about {
   float: left;
@@ -134,38 +139,38 @@ h2 {
   border: 3px solid goldenrod;
   border-radius: 10%;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1rem;
   color: pink;
   background-color: olivedrab;
 }
+
 .biodata {
   width: 40vw;
-  font-size: 24px;
+  font-size: 1.4rem;
   padding: 4px 4px;
   text-align: center;
   float: right;
-  font-family: "Volkhov", serif;
+  font-family: monospace;
   color: aliceblue;
   position: absolute;
   top: 250px;
   right: 50px;
 }
 .entry {
-  font-size: 26px;
+  font-size: 1.4rem;
   font-family: monospace;
 }
 .bold {
-  font-family: "Rubik", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
   color: goldenrod;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 #childhood {
   position: absolute;
   bottom: 10px;
   right: 30px;
-  width: 130px;
+  width: 7rem;
   height: auto;
   border-radius: 20%;
 }
@@ -190,7 +195,7 @@ h2 {
 
 .slide {
   display: flex;
-  height: 500px;
+  height: 30rem;
   width: 100%;
 }
 #prev {
@@ -210,7 +215,7 @@ h2 {
   cursor: pointer;
 }
 .diary {
-  font-size: 45px;
+  font-size: 3rem;
   position: absolute;
   top: 40%;
   right: 10%;
@@ -220,6 +225,7 @@ h2 {
 .diary ul {
   list-style: square;
 }
+
 /* 4th screen*/
 .inter {
   margin: 1px 0px 0px 0px;
@@ -234,18 +240,18 @@ h2 {
 }
 .inter img {
   margin: 10px;
-  border: 10px solid saddlebrown;
+  border: 0.2rem solid saddlebrown;
   border-radius: 30%;
 }
 .left {
-  margin: 20px;
+  margin: 1.3rem;
   float: left;
   display: grid;
 }
 .right {
   float: right;
   display: grid;
-  margin: 20px;
+  margin: 1.3rem;
 }
 #math {
   position: absolute;
@@ -254,6 +260,7 @@ h2 {
   border: none;
   border-radius: 0px;
 }
+
 .college {
   margin: 1px 0px 0px 0px;
   height: 200vh;
@@ -284,30 +291,31 @@ h2 {
   left: 5%;
   top: 45%;
   color: crimson;
-  font-size: 50px;
+  font-size: 3rem;
   font-family: monospace;
 }
 .textleft ul {
   list-style: none;
-  line-height: 80px;
+  line-height: 5rem;
 }
 .textright {
   float: right;
   position: absolute;
   right: 5%;
-  top: 52%;
+  top: 45%;
   color: crimson;
-  font-size: 26px;
+  font-size: 2rem;
   font-family: monospace;
 }
 .textright ul {
-  width: 400px;
+  width: 25rem;
 }
 .overthebc img {
   border-radius: 55%;
-  width: 280px;
-  margin: 65px;
+  width: 17.5rem;
+  margin: 4rem;
 }
+
 .work {
   margin: 1px 0px 0px 0px;
   background-image: url(/images/leafbc.jpg);
@@ -329,13 +337,13 @@ h2 {
   text-align: center;
 }
 h3 {
-  height: 35px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  height: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   color: orangered;
-  line-height: 12px;
+  line-height: 0.8rem;
   font-family: "Red Rose", cursive;
-  font-size: 30px;
+  font-size: 1.8rem;
   text-align: center;
 }
 .prefer {
@@ -346,7 +354,7 @@ h3 {
   display: inline-block;
 }
 .guess {
-  padding: 30px;
+  padding: 2rem;
   border: 3px solid black;
   border-radius: 25%;
   background-color: yellow;
@@ -368,10 +376,10 @@ h3 {
 .buttons input {
   border: 0;
   display: inline-block;
-  padding: 20px;
-  margin: 10px;
-  width: 1.5em;
-  height: 1.5em;
+  padding: 1.2rem;
+  margin: 0.6rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .guess button {
   background-color: lime;
@@ -385,9 +393,10 @@ h3 {
   color: green;
 }
 .buttons label {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-right: 10px;
 }
+
 .bored {
   margin: 0px;
   background-color: darkslategray;
@@ -399,12 +408,13 @@ h3 {
 }
 .bored h1 {
   position: absolute;
-  left: 12%;
   top: 20%;
+  left: 12%;
   font-size: 35px;
   font-family: monospace;
-  letter-spacing: 2px;
+  letter-spacing: 0.1rem;
 }
+
 .aero {
   margin: 1px 0px;
   background-image: url(/images/airbc.jpg);
@@ -443,8 +453,8 @@ h3 {
   width: 60vw;
   height: 70vh;
   font-family: monospace;
-  line-height: 33px;
-  font-size: 25px;
+  line-height: 1.8rem;
+  font-size: 1.5rem;
 }
 .aero ul li {
   margin: 30px;
@@ -469,11 +479,11 @@ h3 {
   color: black;
 }
 .future h2 {
-  line-height: 33px;
-  font-size: 56px;
-  letter-spacing: 28px;
+  line-height: 2rem;
+  font-size: 3.5rem;
+  letter-spacing: 2.6rem;
   position: absolute;
-  top: 50px;
+  top: 3rem;
   left: 25%;
 }
 .point {
@@ -487,11 +497,11 @@ h3 {
   background-color: thistle;
   opacity: 0.7;
   font-family: monospace;
-  font-size: 23px;
+  font-size: 1.5rem;
   text-align: justify;
 }
 .lists {
-  margin: 50px;
+  margin: 3rem;
   text-align: center;
   position: absolute;
   bottom: 1%;
@@ -501,11 +511,12 @@ h3 {
   display: inline-block;
   list-style: none;
   width: 24vw;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 .lists ul li {
   text-align: justify;
 }
+
 .interests {
   margin: 1px 0px 0px 0px;
   height: 100vh;
@@ -531,7 +542,7 @@ h3 {
   display: inline-block;
   color: aliceblue;
   font-size: 18px;
-  margin: 14px;
+  margin: 0.8rem;
   padding: 20px 20px;
   text-decoration: none;
   background-color: darkcyan;
@@ -552,9 +563,9 @@ h3 {
 .content-wrapper p {
   margin: 60px 12px;
   float: right;
-  width: 70px;
+  width: 4.2rem;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
 }
 footer {
   background-color: goldenrod;
@@ -584,4 +595,180 @@ footer ul li a {
   text-decoration: none;
   color: darkblue;
   font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  nav a img {
+    width: 14vw;
+  }
+  #pic img {
+    height: 14vw;
+  }
+  .nav-area button {
+    width: 8rem;
+    padding: 0.3rem 0.3rem;
+    margin: 0.3rem;
+    font-size: 0.6rem;
+    display: inline-block;
+  }
+  #contact {
+    display: none;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .biodata {
+    width: 80vw;
+    float: none;
+    position: absolute;
+    left: 4%;
+    top: 55%;
+    font-size: 1rem;
+    padding: 0.2rem 0.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: rebeccapurple;
+  }
+  .bold {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: normal;
+  }
+  .entry {
+    width: 30vw;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .about p {
+    display: none;
+  }
+  #childhood {
+    width: 5rem;
+  }
+  .ssc-carousel {
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 2px;
+    left: 40%;
+    width: 27%;
+  }
+  .diary {
+    top: 80%;
+    font-size: 1.4rem;
+  }
+  .inter {
+    height: 100vh;
+  }
+  .inter img {
+    width: 8rem;
+  }
+  #math {
+    width: 80vw;
+    margin: auto;
+    position: absolute;
+    bottom: 6rem;
+    left: 3rem;
+  }
+  .college {
+    height: 80vh;
+    background-image: none;
+    background-color: saddlebrown;
+  }
+  .textleft {
+    display: none;
+  }
+  .textright {
+    float: none;
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    font-size: 1rem;
+    color: seashell;
+  }
+  .textright ul {
+    list-style: none;
+  }
+  #del {
+    display: none;
+  }
+  .overthebc img {
+    width: 30vw;
+    margin: 2rem;
+  }
+  .work {
+    height: 80vh;
+  }
+  .prefer {
+    display: none;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .guess {
+    width: 80vw;
+    font-size: 1rem;
+  }
+  .guess button {
+    padding: 0.2rem 0.2rem;
+  }
+  .buttons label {
+    font-size: 0.7rem;
+  }
+  .bored {
+    height: 90vh;
+  }
+  .bored h1 {
+    position: absolute;
+    top: 20%;
+    font-size: 1.4rem;
+  }
+  #meatc {
+    width: 5rem;
+  }
+  #controller {
+    height: 12rem;
+  }
+
+  .aero ul {
+    width: 90vw;
+    top: 20%;
+    left: 4%;
+  }
+  .future h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+  }
+  .point {
+    font-size: 1rem;
+    border-radius: 10%;
+  }
+  .lists {
+    left: 5%;
+    top: 50%;
+    margin: 0.2rem;
+  }
+  .lists ul {
+    font-size: 0.8rem;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .interests ul {
+    left: 8%;
+  }
+  footer ul {
+    height: 25vh;
+    margin: 3rem auto;
+  }
+  footer ul li {
+    width: fit-content;
+    margin: 1px;
+  }
+  footer ul li a {
+    font-weight: 400;
+    font-size: smaller;
+  }
+  #last-list {
+    display: none;
+  }
 }
